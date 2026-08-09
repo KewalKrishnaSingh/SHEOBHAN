@@ -1,0 +1,312 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elevator Solutions | SHEOBHAN</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        /* HEADER */
+        header {
+            background: #ffffff;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #111827;
+        }
+
+        .logo span {
+            color: #d4a017;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #d4a017;
+        }
+
+        .contact-btn {
+            background: #d4a017;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            padding: 70px 7%;
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.55),
+                    rgba(0,0,0,0.55)
+                ),
+                url("https://images.unsplash.com/photo-1540574163026-643ea20ade25")
+                center/cover;
+        }
+
+        .hero-content {
+            max-width: 650px;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 55px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 span {
+            color: #d4a017;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #d4a017;
+            color: white;
+            padding: 15px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* SERVICES */
+        .services {
+            padding: 70px 7%;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .services-subtitle {
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .service-card .icon {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+
+            header {
+                padding: 0 5%;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .hero {
+                min-height: 500px;
+                padding: 50px 5%;
+            }
+
+            .hero-content h1 {
+                font-size: 40px;
+            }
+
+            .service-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="logo">
+            SHEOBHAN<span>.</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Elevators</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="contact-btn">
+            Get Quote
+        </a>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Moving People.<br>
+                <span>Moving Businesses.</span>
+            </h1>
+
+            <p>
+                Reliable elevator solutions engineered for safety,
+                performance, comfort and long-term value.
+            </p>
+
+            <a href="#" class="hero-btn">
+                Explore Elevators
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="services">
+
+        <h2>Our Elevator Solutions</h2>
+
+        <p class="services-subtitle">
+            Complete elevator solutions for residential,
+            commercial and institutional buildings.
+        </p>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <div class="icon">🛗</div>
+
+                <h3>Passenger Elevators</h3>
+
+                <p>
+                    Modern passenger elevators designed for
+                    smooth, safe and efficient vertical mobility.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="icon">🏢</div>
+
+                <h3>Commercial Elevators</h3>
+
+                <p>
+                    High-performance elevator systems for
+                    offices, malls, hotels and commercial buildings.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="icon">⚙️</div>
+
+                <h3>Elevator Modernization</h3>
+
+                <p>
+                    Upgrade existing elevators with modern
+                    technology, controls and safety systems.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 SHEOBHAN ENTERPRISES. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
