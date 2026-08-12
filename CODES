@@ -1,0 +1,26 @@
+<section class="other-services section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow dark">BEYOND VERTICAL MOBILITY</p>
+      <h2>Engineering spaces<br>from the ground up.</h2>
+    </div>
+  </div>
+  <div class="other-grid">
+    <article><span>01</span><h3>Construction</h3>
+      <p>Structured execution for residential, commercial and institutional projects.</p>
+      <a href="construction.html">Learn more →</a>
+    </article>
+    <article><span>02</span><h3>Home Interiors</h3>
+      <p>Functional, refined interiors designed around modern living.</p>
+      <a href="interior.html">Learn more →</a>
+    </article>
+    <article><span>03</span><h3>Structural Drawings</h3>
+      <p>Detailed engineering documentation for safe, efficient construction.</p>
+      <a href="structure.html">Learn more →</a>
+    </article>
+    <article><span>04</span><h3>HVAC & Chillers</h3>
+      <p>Integrated climate-control solutions for demanding environments.</p>
+      <a href="hvac.html">Learn more →</a>
+    </article>
+  </div>
+</section>
